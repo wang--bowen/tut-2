@@ -1,0 +1,9 @@
+TextBuddy.exe output.txt
+add hello world 1
+display
+add hello world 2
+display
+delete 2
+display
+clear
+exit

@@ -1,0 +1,14 @@
+Welcome to TextBuddy. first.txt is ready for use
+command: invalid command format: TextBuddy.exe output.txt
+command: added to first.txt: "hello world 1"
+command: 1. hello world 1
+
+command: added to first.txt: "hello world 2"
+command: 1. hello world 1
+2. hello world 2
+
+command: deleted from first.txt: "hello world 2"
+command: 1. hello world 1
+
+command: all info deleted from first.txt
+command: 

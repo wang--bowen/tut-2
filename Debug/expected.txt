@@ -1,0 +1,12 @@
+Welcome to TextBuddy. mytextfile.txt is ready for use
+added to mytextfile.txt: "hello world 1"
+1. hello world 1
+
+added to mytextfile.txt: "hello world 2"
+1. hello world 1
+2. hello world 2
+
+deleted from mytextfile.txt: "hello world 2"
+1. hello world 1
+
+all info deleted from mytextfile.txt
