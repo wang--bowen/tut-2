@@ -1,17 +1,14 @@
-﻿Build started 2015/2/27 15:00:58.
-     1>Project "C:\Users\a\Desktop\CS2103\CE1\TextBuddy\LibraryTest\LibraryTest.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2015/2/28 22:44:00.
+     1>Project "C:\Users\a\Desktop\CS2103\CE2\TextBuddy++\LibraryTest\LibraryTest.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\LibraryTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LibraryTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt unittest1.cpp
-         unittest1.cpp
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\TextBuddy++ /I"D:\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LibraryTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt textBuddyTest.cpp
+         textBuddyTest.cpp
        Link:
-         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\a\Desktop\CS2103\CE1\TextBuddy\Debug\LibraryTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Microsoft Visual Studio 11.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\a\Desktop\CS2103\CE1\TextBuddy\Debug\LibraryTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\a\Desktop\CS2103\CE1\TextBuddy\Debug\LibraryTest.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
-         Debug\unittest1.obj
-            Creating library C:\Users\a\Desktop\CS2103\CE1\TextBuddy\Debug\LibraryTest.lib and object C:\Users\a\Desktop\CS2103\CE1\TextBuddy\Debug\LibraryTest.exp
-         LibraryTest.vcxproj -> C:\Users\a\Desktop\CS2103\CE1\TextBuddy\Debug\LibraryTest.dll
-     1>Done Building Project "C:\Users\a\Desktop\CS2103\CE1\TextBuddy\LibraryTest\LibraryTest.vcxproj" (Build target(s)).
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\a\Desktop\CS2103\CE2\TextBuddy++\Debug\LibraryTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Microsoft Visual Studio 11.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\a\Desktop\CS2103\CE2\TextBuddy++\Debug\LibraryTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\a\Desktop\CS2103\CE2\TextBuddy++\Debug\LibraryTest.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
+         Debug\textBuddyTest.obj
+         LibraryTest.vcxproj -> C:\Users\a\Desktop\CS2103\CE2\TextBuddy++\Debug\LibraryTest.dll
+     1>Done Building Project "C:\Users\a\Desktop\CS2103\CE2\TextBuddy++\LibraryTest\LibraryTest.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.83
+Time Elapsed 00:00:00.88

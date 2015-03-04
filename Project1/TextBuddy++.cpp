@@ -65,7 +65,7 @@ void getCommand(string fileName) {
 
 		while (true) {	
 		string userCommand;
-		cout << "command: ";
+		
 		getline(cin, userCommand);
 		string feedback = executeCommand(fileName, userCommand);
 		showToUser(feedback);
@@ -244,3 +244,54 @@ void showToUser(string text) {
 	cout << text << endl;
 }
 
+//sort all the lines inside text file according to ascending alphabetical order
+string sortLine(string fileName){
+	ifstream oldFile;
+	ofstream newFile;
+	string line;
+	int i, j;
+	vector<string> wholeText;
+
+	oldFile.open(fileName);
+	newFile.open("temp.txt");
+
+	for (i=0;getline(oldFile,line);i++){
+		wholeText.push_back(line);
+	}
+	
+	sort(wholeText.begin(), wholeText.end());
+
+	for (j=0;j<wholeText.size();j++){
+		newFile << wholeText[j] << endl;
+	}
+
+	oldFile.close();
+	newFile.close();
+
+	remove(fileName.c_str());
+	rename("temp.txt", fileName.c_str());
+
+	sprintf_s(buffer, MESSAGE_SORTED.c_str(), fileName.c_str());
+
+	return buffer;
+}
+
+//search for a keyword appearing in text file and show where it is found.
+string searchWord(string fileName, string keyword){
+	ifstream file;
+	string line;
+	int found;
+
+	file.open(fileName);
+
+
+	while (getline(file,line)){
+		found = line.find(keyword);
+		
+		if(found != std::string::npos)
+		  cout << line << endl;
+	}
+
+	file.close();
+	return "";
+}

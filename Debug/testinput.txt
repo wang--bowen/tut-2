@@ -1,9 +1,8 @@
-TextBuddy.exe output.txt
-add hello world 1
+add hello world
+add i like apple
+add and banana also
 display
-add hello world 2
+sort
 display
-delete 2
-display
-clear
+search like
 exit
